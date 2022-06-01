@@ -1,34 +1,38 @@
 {
-    "name": "bookboon/api-bundle",
-    "type": "library",
-    "description": "Wrapper for Bookboon API",
-    "keywords": ["api","wrapper", "bundle"],
-    "homepage": "https://github.com/bookboon/api-php-bundle",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Lasse Mammen",
-            "email": "lkm@bookboon.com",
-            "homepage": "http://bookboon.com",
-            "role": "CTO"
-        }
-    ],
-    "require": {
-        "php": ">=7.4",
-        "symfony/dependency-injection": "^4.0|^5.0",
-        "symfony/http-kernel": "^4.0|^5.0",
-        "symfony/config": "^4.0|^5.0",
-        "symfony/cache": "^4.0|^5.0",
-        "bookboon/jsonld-client": "^2.0",
-        "bookboon/api-models-php": "^1.1",
-        "bookboon/oauth2-client-php": "^1.0"
-    },
-    "require-dev": {
-        "vimeo/psalm": "^4.1"
-    },
-    "autoload": {
-        "psr-4": {
-            "Bookboon\\ApiBundle\\": ""
-        }
-    }
+	"name": "bookboon/api-symfony6",
+	"type": "library",
+	"description": "Wrapper for Bookboon API",
+	"keywords": [
+		"api",
+		"wrapper",
+		"bundle"
+	],
+	"homepage": "https://github.com/bookboon/api-php-bundle",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Lasse Mammen",
+			"email": "lkm@bookboon.com",
+			"homepage": "http://bookboon.com",
+			"role": "CTO"
+		}
+	],
+	"require": {
+		"php": ">=7.4",
+		"symfony/dependency-injection": "^4.0|^5.0|^6.0",
+		"symfony/http-kernel": "^4.0|^5.0|^6.0",
+		"symfony/config": "^4.0|^5.0|^6.0",
+		"symfony/cache": "^4.0|^5.0|^6.0",
+		"bookboon/jsonld-client": "^2.0",
+		"bookboon/api-models-php": "^1.1",
+		"bookboon/oauth2-client-php": "^1.0"
+	},
+	"require-dev": {
+		"vimeo/psalm": "^4.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Bookboon\\ApiBundle\\": ""
+		}
+	}
 }
