@@ -7,7 +7,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class ApiBundle extends Bundle
 {
-    public function getContainerExtension()
+    public function getContainerExtension() : BookboonApiExtension
     {
         return new BookboonApiExtension();
     }
